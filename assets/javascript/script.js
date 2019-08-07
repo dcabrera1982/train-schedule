@@ -1,6 +1,6 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
-var config = {
+var firebaseConfig = {
     apiKey: "AIzaSyD_3J-2tI6ku5N6ZJ75GYvjOEs_EqUX5YY",
     authDomain: "test-project-965f1.firebaseapp.com",
     databaseURL: "https://test-project-965f1.firebaseio.com",
@@ -10,7 +10,7 @@ var config = {
     appId: "1:413722949682:web:0ba7e6a4bf7809fd"
   };
   // Initialize Firebase
-  firebase.initializeApp(config);
+  firebase.initializeApp(firebaseConfig);
 
    var database = firebase.database();
 
@@ -97,4 +97,4 @@ var config = {
 	   "</td><td>" + moment(nextTrain).format("HH:mm") + "</td><td>" + tMinutesTillTrain + "</td></tr>");
 	});
 
-});
+// });
