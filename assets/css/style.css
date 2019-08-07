@@ -2,3 +2,16 @@
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.panel-heading {
+    color: blue;
+    border: outset 2px;
+}
+
+.panel {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
