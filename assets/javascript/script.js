@@ -1,5 +1,6 @@
-// $(document).ready(function() {
+ $(document).ready(function() {
 
+// Your web app's Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyD_3J-2tI6ku5N6ZJ75GYvjOEs_EqUX5YY",
     authDomain: "test-project-965f1.firebaseapp.com",
@@ -97,4 +98,4 @@ var firebaseConfig = {
 	   "</td><td>" + moment(nextTrain).format("HH:mm") + "</td><td>" + tMinutesTillTrain + "</td></tr>");
 	});
 
-// });
+ });
